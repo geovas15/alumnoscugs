@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compartible" content="ie=edge">
+	<link rel="shortcut icon" type="image/x-icon" href="Img/programador.png">
+	<title>ALUMNOS CUGS</title>
+	<script src="https://kit.fontawesome.com/b5a8732c6b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="Css/estilos.css">
+</head>
+<body>
+	<!---------Menu---------->
+	<div id="sidemenu" class="menu-collapsed">
+		<!--header-->
+		<div id="header">
+			<div id="menu-btn">
+				<div class="icon-menu"><i class="fas fa-bars"></i></div>
+			</div>
+		</div>
+
+		<!--profile-->
+		<div id="profile">
+			<div id="photo"><img src="Img/adminred.png"></div>
+
+			<div id="name"><span>ALUMNOS CUGS ISC7</span></div>
+		</div>
+
+		<!--Items-->
+		<div id="menu-items">
+
+			<div class="item">
+				<a href="#admin-student">
+				<div class="icon"><img src="Img/students.png"></div>
+				<div class="title">Administracion de estudiantes</div>
+				</a>
+			</div>
+
+			<div class="item separator"></div>
+
+			<div class="item">
+				<a href="#admin-materias">
+				<div class="icon"><img src="Img/materias.png"></div>
+				<div class="title">Administracion de materias</div>
+				</a>
+			</div>
+
+			<div class="item separator"></div>
+
+			<div class="item">
+				<a href="#ir-horario">
+				<div class="icon"><img src="Img/horario.png"></div>
+				<div class="title">Horario</div>
+				</a>
+			</div>
+
+			<div class="item separator"></div>
+		</div>
+	</div>
+
+	<div class="encabezado">
+		<div class="texto">
+		<h1>ALUMNOS DE INGENIERIA "ISC7"</h1>
+		</div>
+	</div>
+
+	<div class="principal" id="admin-student">
+		<div class="wrap">
+			<h2>Administracion de estudiantes</h2>
+			<form class="formulario" action="">
+				<input type="text" id="tareaInput" placeholder="Agregar un nuevo estudiante">
+				<center>
+					<input type="button" class="boton" id="btn-agregar" value="Agregar">
+				</center>
+			</form>
+		</div>
+	</div>
+
+	<div class="tareas">
+		<div class="wrap">
+			<ul class="lista" id="lista">
+				<li><a href="#">1.- CAMACHO GONZALEZ DAVID</a></li>
+				<li><a href="#">2.- CAMPUZANO GARCÍA GEOVANNI</a></li>
+				<li><a href="#">3.- CHECA QUEZADA MARIA MARGARITA</a></li>
+				<li><a href="#">4.- GONZALEZ REYES MAGALY</a></li>
+				<li><a href="#">5.- LOPEZ MASSE FRANCISCO</a></li>
+				<li><a href="#">6.- MARTINEZ VELASCO ERICK JONATHAN</a></li>
+				<li><a href="#">7.- RAMIREZ GUEVARA MIGUEL</a></li>
+				<li><a href="#">8.- RAMIREZ LANDEROS DIEGO FERNANDO</a></li>
+				<li><a href="#">9.- SANCHEZ ANGELES JAVIER ALEJANDRO</a></li>
+				<li><a href="#">10.- VALENCIA JIMENEZ ANGEL</a></li>
+				<li><a href="#">11.- VALLEJO GUZMAN RAYMUNDO SEBASTIAN</a></li>
+			</ul>
+		</div>
+	</div>
+
+<div class="admin_materias" id="admin-materias">
+	<div class="principal">
+		<div class="wrap">
+			<h2>Administracion de materias</h2>
+			<form class="formulario" action="">
+				<input type="text" id="tareaInput2" placeholder="Agregar una materia extra">
+				<center>
+					<input type="button" class="boton" id="btn-agregar2" value="Agregar">
+				</center>
+			</form>
+		</div>
+	</div>
+
+	<div class="tareas">
+		<div class="wrap">
+			<ul class="lista" id="lista2">
+				<li><a href="#">1.- INTELIGENCIA ARTIFICIAL</a></li>
+				<li><a href="#">2.- PROGRAMACION WEB</a></li>
+				<li><a href="#">3.- INGENIERIA ECONOMICA</a></li>
+				<li><a href="#">4.- ADMINISTRACION DE REDES</a></li>
+				<li><a href="#">5.- BASE DE DATOS 2</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="horario" id="ir-horario">
+		<p>Horario</p>
+        <table>
+            <tr>
+            	<td>Hora</td>
+                <td>Lunes</td>
+                <td>Martes</td>
+                <td>Miercoles</td>
+                <td>Jueves</td>
+                <td>Viernes</td>
+                <td>Sabado</td>
+            </tr>
+            <tr>
+            	<td>7:00 a 7:50</td>
+                <td>Inteligencia artificial</td>
+                <td>Inteligencia artificial</td>
+                <td>Inteligencia artificial</td>
+                <td>Inteligencia artificial</td>
+                <td>Inteligencia artificial</td>
+                <td>Inteligencia artificial</td>
+            </tr>  
+            <tr>
+            	<td>7:50 a 8:40</td>
+                <td>Inteligencia artificial</td>
+                <td>Inteligencia artificial</td>
+                <td>Inteligencia artificial</td>
+                <td>Inteligencia artificial</td>
+                <td>Inteligencia artificial</td>
+                <td>Inteligencia artificial</td>
+            </tr>  
+            <tr>
+            	<td>8:40 a 9:30</td>
+                <td>Programación web</td>
+                <td>Programación web</td>
+                <td>Programación web</td>
+                <td>Programación web</td>
+                <td>Programación web</td>
+                <td>Programación web</td>
+            </tr>  
+            <tr>
+            	<td>9:30 a 10:20</td>
+                <td>Ingenieria economica</td>
+                <td>Ingenieria economica</td>
+                <td>Ingenieria economica</td>
+                <td>Ingenieria economica</td>
+                <td>Ingenieria economica</td>
+                <td>Ingenieria economica</td>
+            </tr>   
+            <tr>
+            	<td>10:20 a 10:40</td>
+                <td>R</td>
+                <td>E</td>
+                <td>C</td>
+                <td>E</td>
+                <td>S</td>
+                <td>O</td>
+            </tr>    
+            <tr>
+            	<td>10:40 a 11:30</td>
+                <td>Administración de redes</td>
+                <td>Administración de redes</td>
+                <td>Administración de redes</td>
+                <td>Administración de redes</td>
+                <td>Administración de redes</td>
+                <td>Administración de redes</td>
+            </tr>   
+            <tr>
+            	<td>11:30 a 12:20</td>
+                <td>Arquitectura de computadoras</td>
+                <td>Arquitectura de computadoras</td>
+                <td>Arquitectura de computadoras</td>
+                <td>Arquitectura de computadoras</td>
+                <td>Arquitectura de computadoras</td>
+                <td>Arquitectura de computadoras</td>
+            </tr>   
+            <tr>
+            	<td>12:20 a 1:10</td>
+                <td>Arquitectura de computadoras</td>
+                <td>Arquitectura de computadoras</td>
+                <td>Arquitectura de computadoras</td>
+                <td>Arquitectura de computadoras</td>
+                <td>Arquitectura de computadoras</td>
+                <td>Arquitectura de computadoras</td>
+            </tr>   
+            <tr>
+            	<td>1:10 a 2:00</td>
+                <td>Base de datos</td>
+                <td>Base de datos</td>
+                <td>Base de datos</td>
+                <td>Base de datos</td>
+                <td>Base de datos</td>
+                <td>Base de datos</td>
+            </tr>   
+            <tr>
+            	<td>2:00 a 2:50</td>
+                <td>Base de datos</td>
+                <td>Base de datos</td>
+                <td>Base de datos</td>
+                <td>Base de datos</td>
+                <td>Base de datos</td>
+                <td>Base de datos</td>
+            </tr>   
+
+        </table>
+	</div>
+</div>
+
+	<script src="Js/main.js"></script>	
+</body>
+</html>
